@@ -8,6 +8,8 @@ get "/" do
   "Hello world!"
 end
 
-get "/le_wagon" do
-  "Hello Le Wagon!"
+# http://localhost:4567/restaurants
+get "/restaurants" do
+  # View... now print the template
+  erb :"restaurants/index" # HTML embeded ruby
 end
