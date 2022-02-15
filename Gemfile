@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "faker"
 gem "pry"
+gem "pry-byebug"
 gem "rake"
 gem "sinatra"
 gem "sinatra-activerecord"
